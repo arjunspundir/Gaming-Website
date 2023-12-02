@@ -1,0 +1,131 @@
+.about{
+    width: 100%;
+    height: 100vh;
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   color: rgb(41, 33, 33);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    /* border: 2px solid black; */
+}
+.title{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 2px;
+}
+.description{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 2px;
+    color: rgb(202, 143, 152);
+}
+.footer{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    margin:0px;
+    @media(max-width:1060px){
+        flex-direction: column;
+
+        align-items:center;
+    }
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    width: 35%;
+    /* border:2px solid black; */
+    /* height: 500px; */
+    /* flex-wrap: wrap;border: 2px solid black; */
+    margin: 2px;
+    @media(max-width:1060px){
+        width: 80%;
+    }
+}
+.image{
+    margin: 2px;
+    width: 30%;
+    /* border: 2px solid black; */
+    height: 50vh;
+    display: flex;
+    margin-right: 2px;
+    @media(max-width:1060px){
+        width: 100%;
+    }
+}
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* margin-top: auto; */
+    margin-left:50px;
+    @media(max-width:855px){
+        width: 150px;
+        height: 150px;
+    }
+    @media(max-width:780px){
+        margin: auto;
+    }
+   
+}
+.detail{
+    display: flex;
+    margin: 2px;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 30%;
+    @media(max-width:1060px){
+        width: 100%;
+        align-items: center;
+    }
+}
+.detailContent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:100%;
+    /* border: 2px solid black; */
+    @media(max-width:1060px){
+        align-items: center;
+    }
+}
+.heading{
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.contentDescription{
+    margin: 4px;
+    padding: 4px;
+    color: rgb(96, 40, 40);
+    @media(max-width:1060px){
+       padding: 20px;
+    }
+}
+.detailContent{
+    margin: 4px;
+    padding: 4px;
+}
+.key{
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.value{
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(96, 40, 40);
+}
